@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * my_function - This is a description
+ * main - This is a description
+ *
+ * Return: Description of the returned value
  */
 
 int main(void)
