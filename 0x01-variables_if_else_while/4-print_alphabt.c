@@ -9,17 +9,15 @@
 
 int main(void)
 {
-        int x;
+	int x;
 
-        for (x = 'a'; x <= 'z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 {
 	if (x == 'q' || x == 'e')
 		continue;
-	else 
-	{
+	else
 		putchar(x);
-	}
 }
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
