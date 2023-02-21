@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _islower - check the code
+ *
+ * @c: checks input against ascii value.
  *
  * Return: Always 0.
  **/
