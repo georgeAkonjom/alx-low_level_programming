@@ -18,8 +18,8 @@ void print_alphabet_x10(void)
 		while (x <= 'z')
 		{
 			_putchar(x);
-			i++;
 		}
+		i++;
 	}
 	_putchar('\n');
 }
