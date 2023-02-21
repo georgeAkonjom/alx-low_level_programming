@@ -3,7 +3,7 @@
 /**
  * print_sign - identifys alphabetical chars
  *
- * @n: description here 
+ * @n: description here
  *
  * Return: Always 0.
  */
