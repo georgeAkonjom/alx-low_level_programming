@@ -3,7 +3,7 @@
 /**
  * _isalpha - identifys alphabetical chars
  *
- * @c: description here 
+ * @c: description here
  *
  * Return: Always 0.
  */
