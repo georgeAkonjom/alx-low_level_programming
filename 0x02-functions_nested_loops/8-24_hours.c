@@ -3,7 +3,7 @@
 /**
  * jack_bauer - a 24 hour count. like in the movie!
  *
- * 
+ *
  * Return: Always 0.
  */
 
