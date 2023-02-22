@@ -3,8 +3,8 @@
 /**
  * add - identifys alphabetical chars
  *
- * x: int
- * y: int
+ * @x: int
+ * @y: int
  *
  * Return: Always 0.
  */
