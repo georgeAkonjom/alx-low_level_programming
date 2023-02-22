@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - identifys alphabetical chars
+ * print_last_digit  - identifys alphabetical chars
  *
- * @c: description here 
+ * @c: description here
  *
  * Return: Always 0.
  */
