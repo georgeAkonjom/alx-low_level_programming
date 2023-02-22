@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - identifys alphabetical chars
+ * jack_bauer - a 24 hour count. like in the movie!
  *
- * @c: description here 
- *
+ * 
  * Return: Always 0.
  */
 
