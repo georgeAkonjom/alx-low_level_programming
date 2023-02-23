@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - identifys alphabetical chars
+ * print_numbers - identifys alphabetical chars
  * 
  *
  * Return: Always 0.
