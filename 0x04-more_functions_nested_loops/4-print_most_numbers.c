@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - identifys alphabetical chars
+ * print_most_numbers - identifys alphabetical chars
  * Return: Always 0.
  */
 
