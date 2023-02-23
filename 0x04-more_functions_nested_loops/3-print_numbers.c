@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - identifys alphabetical chars
- * 
- *
  * Return: Always 0.
  */
 
