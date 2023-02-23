@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add - identifys alphabetical chars
+ * mul - identifys alphabetical chars
  *
  * @a: int
  * @b: int
@@ -11,7 +11,7 @@
 
 int mul(int a, int b)
 {
-	int result = x * y;
+	int result = a * b;
 
 	return (result);
 }
