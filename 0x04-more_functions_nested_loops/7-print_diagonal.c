@@ -1,25 +1,26 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_line - check the code
- * @n: input value
- * Return: Always 0.
- */
-void print_line(int n)
-{
-	int lines;
-	int spaces;
+ * print_diagonal - print a diagonal line
+ *
+ * @n: is the number of times the \ character
+ *     should be printed
+*/
 
-	if (n > 0)
+void print_diagonal(int n)
+{
+	int postn, space;
+
+	if (n <= 0)
+		_putchar('\n');
+	else
 	{
-		for (lines = 0; lines <= n; lines++)
+		for (postn = 1; postn <= n; ++postn)
 		{
-			_putchar(92);
-			_putchar('\n');
-			for (spaces = 1; spaces <= lines; spaces++)
+			for (space = 1; space <= postn; ++space)
 				_putchar(' ');
+			_putchar(92); /*is equal to '/' char*/
+			_putchar('\n');
 		}
 	}
-	else 
-		_putchar('\n');
 }
