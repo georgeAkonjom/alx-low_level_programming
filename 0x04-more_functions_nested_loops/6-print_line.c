@@ -3,8 +3,10 @@
 /**
  * print_line - check the code
  *
+ * @n: input equals the line length 
  * Return: Always 0.
  */
+
 void print_line(int n)
 {
 	int i;
