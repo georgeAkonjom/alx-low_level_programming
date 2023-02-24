@@ -2,7 +2,7 @@
 
 /**
  * print_line - check the code
- *
+ * @n: input value
  * Return: Always 0.
  */
 void print_line(int n)
@@ -22,3 +22,4 @@ void print_line(int n)
 	}
 	else 
 		_putchar('\n');
+}
