@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    print_diagonal(6);
+    print_square(6);
     return (0);
 }
