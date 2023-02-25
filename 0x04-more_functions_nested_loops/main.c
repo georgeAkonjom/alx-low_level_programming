@@ -7,10 +7,6 @@
  */
 int main(void)
 {
-<<<<<<< HEAD
-    print_line(6);
-=======
-    print_line(2000);
->>>>>>> ba9e7c0eed35ab0cb9fb60864ccd4559010a808c
+    print_diagonal(-60);
     return (0);
 }
