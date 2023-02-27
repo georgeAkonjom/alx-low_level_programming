@@ -3,7 +3,7 @@
 /**
  * _strlen - identifys alphabetical chars
  *
- * @i: description here
+ * @s: description here
  *
  * Return: Always 0.
  */
