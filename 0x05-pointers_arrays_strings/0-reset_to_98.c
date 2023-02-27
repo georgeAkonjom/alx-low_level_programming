@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - identifys alphabetical chars
+ * reset_to_98 - identifys alphabetical chars
  *
- * @c: description here 
+ * @n: description here
  *
  * Return: Always 0.
  */
