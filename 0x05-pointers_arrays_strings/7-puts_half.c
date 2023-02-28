@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * puts2 - prints every character of a string
+ * puts_half - prints last half of a string
  *
  * @str: string parameter input
  *
@@ -18,6 +18,6 @@ void puts_half(char *str)
 	{
 		if (c >= i / 2)
 			_putchar(str[c]);
-
 	}
+	_putchar('\n');
 }
