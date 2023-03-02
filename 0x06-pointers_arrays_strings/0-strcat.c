@@ -1,12 +1,11 @@
 #include "main.h"
-/*
-* *_strcat - concats two strings.
+/**
+* _strcat - concats two strings.
 *
-* @i: counter var.
-* @j: counter var
-* 
-* return - pointer to dest string 
+* @dest: pointer var.
+* @src: pointer var
 *
+* Return - pointer to dest string
 */
 
 char *_strcat(char *dest, char *src)
@@ -16,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[i] != '\0')
 	{
 		i++;
-	}	
+	}
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
