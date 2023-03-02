@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strcmp - compares string a to b 
+ * _strcmp - compares string a to b
  *
- * @s1: string a 
- * @s2: string b 
- * 
+ * @s1: string a
+ * @s2: string b
+ *
  * Return: variable return. either 0 if equal, 1 or -1.
  */
 int _strcmp(char *s1, char *s2)
