@@ -6,7 +6,7 @@
  *
  * Return: pointer to dest.
  */
-void *_memcpy(void *dest, void *src, int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	if (dest == NULL) return NULL;
 	char *char_dest = (char *) dest;
