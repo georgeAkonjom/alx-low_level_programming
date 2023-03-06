@@ -1,3 +1,8 @@
+#ifndef __FILE_NAME_H__
+#define __FILE_NAME_H__
+
+#include <Stdio.h>
+
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
@@ -7,3 +12,5 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 int _putchar(char c);
 void print_diagsums(int *a, int size);
+
+#endif /* __FILE_NAME_H__ */
