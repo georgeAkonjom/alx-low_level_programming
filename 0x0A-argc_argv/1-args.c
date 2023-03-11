@@ -10,6 +10,12 @@
  */
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-	printf("%d\n", argc);
+	int i = 0, v;
+	while (i < argc)
+	{
+		v = i;
+		i++;
+	}
+	printf("%d\n", v);
 	return (0);
 }
