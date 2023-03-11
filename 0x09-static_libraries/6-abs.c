@@ -4,7 +4,7 @@
  *
  * Return: 0
  */
-int main(void)
+int _abs(int n)
 {
         return (0);
 }
