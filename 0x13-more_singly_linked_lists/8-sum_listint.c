@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * sum_listint - returns the sum of all the data in a listin_t list.
@@ -9,9 +9,15 @@
 int sum_listint(listint_t *head)
 {
 	int sum;
-	listint_t current;
+	listint_t *current;
 
-	current = &head; 
+	sum = 0;
+	current = head;
+	while (current != NULL)
+	{
+		sum = sum + current->n;
+		current = current->next;
+	}
 
 	return (sum);
 }
