@@ -23,6 +23,4 @@ void print_binary(unsigned long int n)
 		else if (check)
 			_putchar('0');
 	}
-	if (check = 0)
-		_putchar('0');
 }
