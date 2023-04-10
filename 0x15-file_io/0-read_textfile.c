@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * read_textfile - reads the text in a file and prints it to stdout.
+ * @filename: name of the file to be read.
+ * @letters: no of letters.
+ * Return: wrfail. Still dont know why.
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -30,5 +31,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 	free(buffer);
 
-	return (wrfail);
+	return (wrfail); /*not buffer? not letters? why?*/
 }
