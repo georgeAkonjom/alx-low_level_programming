@@ -33,5 +33,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if ((unsigned int)write_ret != letters)
 		return (0);
-	return (ret);
+	return (write_ret);
 }
