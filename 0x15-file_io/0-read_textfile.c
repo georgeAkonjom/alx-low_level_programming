@@ -8,9 +8,12 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	unsigned int write_ret;
+	int write_ret;
 	ssize_t ret;
 	char *buff;
+
+	if (filename == NULL)
+		return (0);
 
 	fd = open(filename, O_RDONLY);
 
@@ -25,7 +28,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	write_ret = write(2, buff, letters);
-	if (write_ret != letters || (int)write_ret == -1)
+	if (write_ret == -1)
+		return (0);
+	
+	if ((unsigned int)write_ret != letters)
 		return (0);
 	return (ret);
 }
